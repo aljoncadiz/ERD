@@ -1,0 +1,220 @@
+#projectNameHeader{
+    font-size: 40px;
+    color: white;
+    line-height: 30px;
+    margin: 0px;
+    padding: 15px;
+}
+
+.projectNavHeader{
+    background-image: url(../../images/sidebar-header.jpg);
+    height: 60px;
+    margin-left: -15px;
+    margin-right: -15px;
+    opacity: 0.8;
+    font-size: 25px;
+    color: white;
+    line-height: 60px;
+    padding-left: 20px;
+}
+
+.team-view{
+    height: 100%;
+    background-color: rgb(241, 241, 241);
+}
+
+.img-circle {
+  border-radius: 50%;
+  height: 140px;
+  width: 140px;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+.centerDivItems{
+  text-align: center;
+}
+
+.noPadding{
+  padding: 0px !important;
+}
+
+.noMargin{
+  margin: 0px !important;
+}
+
+.fullWidth{
+  width: 100% !important;
+}
+
+.text{
+  color: #E5E7E9;
+}
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.metaDataView{
+  margin-top: -10px;
+  padding-right: 0px !important;
+  //height: 60%;
+  border-style: dashed;
+  border-color: grey;
+}
+
+.metaDataList{
+  margin-top: 15px;
+  overflow: auto;
+  height: 300px;
+}
+
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.canvasToolView{
+  background-color: rgba(31,31,31,0.5);
+  position: absolute !important;
+  padding: 10px;
+  z-index: 2;
+}
+
+.scroll::-webkit-scrollbar {
+    width: 12px;
+}
+
+.scroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+.card{
+  color: #fff!important;
+  background-color: #5cb85c!important;
+  padding: 1.25rem;
+}
+.cardSuccess{
+    margin: 0px !important;
+    height: 40px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #5cb85c;
+    border-color: #5cb85c;
+    position: relative;
+    display: block;
+    margin-bottom: .75rem !important;
+}
+
+.cardInnerDamger{
+  color: #fff!important;
+  background-color: #d9534f!important;
+  padding: 1.25rem;
+}
+
+.cardDanger{
+    margin: 0px !important;
+    height: 40px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #d9534f;
+    border-color: #d9534f;
+    position: relative;
+    display: block;
+    margin-bottom: .75rem !important;
+}
+.BAcardIcon1{
+  right: 0px;
+  color: rgba(20, 20, 20, 0.15);
+  position: absolute !important;
+  bottom: 10px;
+  display: block !important;
+  font-size: 3em;
+}
+
+.BAcardIcon2{
+  color: rgba(20, 20, 20, 0.15);
+  position: absolute !important;
+  bottom: 10px;
+  display: block !important;
+  top: 5px  !important;
+  right: 33px;
+  font-size: 2em;
+}
+.cardText{
+  position: absolute;
+  top: .3em;
+  font-size: 2rem;
+  font-weight: 700;
+  padding-left: 30px;
+}
+
+.toggleMode{
+  position: absolute;
+  top: 10px;
+  left: -10px;
+}
+
+.txtlabel{
+  color: white
+}
+
+.workflowView{
+  margin-top: -10px;
+  border-style: dashed;
+  border-color: grey;
+}
+
+.metadataKey{
+  padding-left: 60px;
+}
+
+.metadataValue{
+  position: absolute;
+  left: 0px;
+  top: -10px;
+  font-size: 13px !important;
+}
+
+.innerCanvas{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  margin-bottom: 5%;
+  transform: translate(-50%,-30px);
+}
+
+.parentCanvas{
+  overflow: auto;
+  height: 100%;
+  background-color: #4f4f4f;
+  position: relative;
+}
+
+.canvasSpacing{
+  height: :20px;
+}
